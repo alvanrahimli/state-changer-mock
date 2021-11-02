@@ -1,4 +1,4 @@
-GET http://localhost:3000/state
+GET http://mock-state-changer.herokuapp.com/state
 
 ###
 
