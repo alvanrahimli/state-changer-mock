@@ -1,0 +1,11 @@
+GET http://localhost:3000/state
+
+###
+
+POST http://localhost:3000/set-state
+Content-Type: application/json
+
+{
+    "password": "khCN3KYotpXh",
+    "state": true
+}
