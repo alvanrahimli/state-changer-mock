@@ -18,7 +18,7 @@ app.post('/set-state', function (req, res) {
     }
 });
 
-var server = app.listen(80, function () {
+var server = app.listen(int.Parse(process.env.PORT), function () {
     var host = server.address().address;
     var port = server.address().port;
 
